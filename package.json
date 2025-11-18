@@ -6,7 +6,7 @@
     "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -m \"Deployment via npm run deploy\""
+    "deploy": "gh-pages -d dist --message \"Deployment via npm run deploy\" --history false"
   },
   "dependencies": {
     "react": "^18.2.0",

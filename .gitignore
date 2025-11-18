@@ -1,0 +1,9 @@
+# Thư mục chứa các gói phụ thuộc (phải bỏ qua)
+node_modules/
+
+# Thư mục build (cũng nên bỏ qua để Git chính sạch sẽ)
+dist/
+build/ 
+
+# File log của npm
+npm-debug.log

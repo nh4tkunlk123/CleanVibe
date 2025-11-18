@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "homepage": "http://nh4tkunlk123.github.io/CleanVibe",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "deploy": "gh-pages -d dist -m 'Deployment using gh-pages (auto-commit)'"
   },
   "dependencies": {
     "react": "^18.2.0",
